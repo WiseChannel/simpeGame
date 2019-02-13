@@ -6,7 +6,7 @@ import SpriteKit
 
 final class MoonLanderGame: Game {
     var name: String { return "Moon Lander" }
-    var authors: [String] { return ["Nikola Lajic", "Milan Stevanovic"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {
         return MoonLanderScene(size: UIScreen.main.bounds.size)

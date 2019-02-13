@@ -10,7 +10,7 @@ import SpriteKit
 
 final class CarGame: Game {
     var name: String { return "Car" }
-    var authors: [String] { return ["Noé Froidevaux"] }
+    var authors: [String] { return ["Wise Ilya"] }
 
     func makeScene() -> SKScene {
         return CarScene(size: UIScreen.main.bounds.size)

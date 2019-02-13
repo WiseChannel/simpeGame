@@ -9,7 +9,7 @@ import SpriteKit
 
 final class SmileyBilliardGame: Game {
     var name: String { return "Smiley-Billiard Game" }
-    var authors: [String] { return ["Monika Zielonka", "David Hart"] }
+    var authors: [String] { return ["Wise Ilya"] }
 
     func makeScene() -> SKScene {
         var size = UIScreen.main.bounds.size

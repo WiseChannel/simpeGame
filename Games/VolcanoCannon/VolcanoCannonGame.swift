@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class VolcanoCannonGame: Game {
     var name: String { return "VolcanoCannon" }
-    var authors: [String] { return ["Alex Joly", "Sam Bichsel"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {        
         return VolcanoCannonScene(size: UIScreen.main.bounds.size)

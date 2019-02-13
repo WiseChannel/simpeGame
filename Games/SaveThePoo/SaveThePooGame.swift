@@ -14,7 +14,7 @@ final class SaveThePooGame: Game {
     }
     /// The name of the people who made the game
     var authors: [String] {
-        return["Askia", "Roman"]
+        return["Wise Ilya"]
     }
     
     /// Initialize the game. Will be done automatically by the app.

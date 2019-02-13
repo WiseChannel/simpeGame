@@ -2,8 +2,6 @@
 //  DeathStarScene.swift
 //  Swift Alps Game Jam
 //
-//  Created by Eran Jalink on 23/11/2017.
-//
 
 import Foundation
 import SpriteKit

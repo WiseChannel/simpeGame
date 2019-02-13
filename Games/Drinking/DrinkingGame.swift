@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class DrinkingGame: Game {
     var name: String { return "Drinking Game" }
-    var authors: [String] { return ["Maria", "Sidney"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {
         return DrinkingGameScene(size: UIScreen.main.bounds.size)

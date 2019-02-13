@@ -10,7 +10,7 @@ import SpriteKit
 
 final class BubbleRocketGame: Game {
     var name: String { return "Bubble Rocket Game" }
-    var authors: [String] { return ["Dani & Tommy"] }
+    var authors: [String] { return ["Wise Ilya"] }
 
     func makeScene() -> SKScene {
         return BubbleRocketScene(size: UIScreen.main.bounds.size)

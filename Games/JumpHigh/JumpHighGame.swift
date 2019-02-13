@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class JumpHighGame: Game {
     var name: String { return "JumpHighGame" }
-    var authors: [String] { return ["Florin Voicu", "George Muntean"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {
         return JumpHighScene(size: UIScreen.main.bounds.size)

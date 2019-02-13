@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class GravityColliderGame: Game {
     var name: String { return "GravityCollider" }
-    var authors: [String] { return ["Dennis Charmington"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {        
         return GravityColliderScene(size: UIScreen.main.bounds.size)

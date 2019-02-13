@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class RocketGame: Game {
     var name: String { return "Rocket Game" }
-    var authors: [String] { return ["Petteri & Janne"] }
+    var authors: [String] { return ["Wise Ilya"] }
 
     func makeScene() -> SKScene {
         return RocketScene(size: UIScreen.main.bounds.size)

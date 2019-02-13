@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class SoccerGame: Game {
     var name: String { return "Soccer Game" }
-    var authors: [String] { return ["Sameh Mabrouk"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {
         return SoccerScene(size: UIScreen.main.bounds.size)

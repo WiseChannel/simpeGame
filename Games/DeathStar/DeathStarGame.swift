@@ -11,7 +11,7 @@ import SpriteKit
 /// Game implementation for demo purposes
 final class DeathStarGame: Game {
     var name: String { return "Death Star" }
-    var authors: [String] { return ["Eran & Viktor"] }
+    var authors: [String] { return ["Wise Ilya"] }
     
     func makeScene() -> SKScene {
         return DeathStarScene(size: UIScreen.main.bounds.size)
